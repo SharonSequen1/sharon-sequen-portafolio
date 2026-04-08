@@ -17,13 +17,4 @@
         });
     });
 
-    // GitHub placeholder - evita navegar
-    const ghLink = document.getElementById('githubLink');
-    if (ghLink) {
-        ghLink.addEventListener('click', (e) => {
-            if (ghLink.getAttribute('href') === '#') {
-                e.preventDefault();
-            }
-        });
-    }
 })();
