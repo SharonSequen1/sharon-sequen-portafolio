@@ -1,0 +1,95 @@
+/* ============================================
+   NOVA QA - DESIGN SYSTEM VARIABLES
+   Paleta púrpura · negro · oro
+   ============================================ */
+
+:root {
+    /* === COLORES PRINCIPALES === */
+    --color-purple-900: #2E1065;
+    --color-purple-800: #4C1D95;
+    --color-purple-700: #5B21B6;
+    --color-purple-600: #6D28D9;
+    --color-purple-500: #7C3AED;
+    --color-purple-400: #8B5CF6;
+    --color-purple-300: #A78BFA;
+    --color-purple-200: #C4B5FD;
+
+    /* === NEGROS / FONDOS === */
+    --color-black: #000000;
+    --color-bg: #0A0612;
+    --color-bg-deep: #050309;
+    --color-surface: #14092A;
+    --color-surface-light: #1E1238;
+    --color-border: rgba(167, 139, 250, 0.15);
+    --color-border-strong: rgba(167, 139, 250, 0.35);
+
+    /* === ACENTOS === */
+    --color-gold: #D4AF37;
+    --color-gold-light: #F4D77A;
+    --color-silver: #E5E7EB;
+
+    /* === TEXTO === */
+    --color-text: #F8FAFC;
+    --color-text-soft: #CBD5E1;
+    --color-text-muted: #94A3B8;
+
+    /* === GRADIENTES === */
+    --gradient-primary: linear-gradient(135deg, #6D28D9 0%, #2E1065 50%, #0A0612 100%);
+    --gradient-purple: linear-gradient(135deg, #8B5CF6 0%, #6D28D9 50%, #4C1D95 100%);
+    --gradient-text: linear-gradient(135deg, #C4B5FD 0%, #8B5CF6 50%, #D4AF37 100%);
+    --gradient-card: linear-gradient(135deg, rgba(124, 58, 237, 0.12) 0%, rgba(20, 9, 42, 0.6) 100%);
+    --gradient-glow: radial-gradient(circle, rgba(139, 92, 246, 0.35) 0%, transparent 70%);
+    --gradient-button: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
+    --gradient-border: linear-gradient(135deg, #A78BFA, #D4AF37);
+
+    /* === TIPOGRAFÍA === */
+    --font-display: 'Poppins', system-ui, sans-serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+
+    --fs-hero: clamp(2.5rem, 7vw, 5.5rem);
+    --fs-h2: clamp(2rem, 4.5vw, 3.25rem);
+    --fs-h3: clamp(1.4rem, 2.5vw, 1.8rem);
+    --fs-body: 1rem;
+    --fs-lg: 1.125rem;
+    --fs-sm: 0.875rem;
+    --fs-xs: 0.75rem;
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-black: 900;
+
+    /* === ESPACIADO === */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2.5rem;
+    --space-xl: 4rem;
+    --space-2xl: 6rem;
+    --space-3xl: 9rem;
+
+    /* === BORDES === */
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-xl: 32px;
+    --radius-full: 9999px;
+
+    /* === SOMBRAS === */
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 12px 30px rgba(0, 0, 0, 0.45);
+    --shadow-lg: 0 25px 60px rgba(0, 0, 0, 0.6);
+    --shadow-purple: 0 10px 40px rgba(124, 58, 237, 0.4);
+    --shadow-glow: 0 0 60px rgba(139, 92, 246, 0.5);
+
+    /* === TRANSICIONES === */
+    --transition-fast: 0.2s ease;
+    --transition-base: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* === LAYOUT === */
+    --container-max: 1240px;
+    --navbar-height: 80px;
+}

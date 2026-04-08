@@ -1,0 +1,97 @@
+/* ===== SKILLS ===== */
+
+.skills__categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-lg);
+}
+
+.skill-category {
+    padding: var(--space-lg);
+    background: var(--gradient-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-base);
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-category::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    right: -30%;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, transparent 70%);
+    filter: blur(40px);
+    opacity: 0;
+    transition: opacity var(--transition-slow);
+    pointer-events: none;
+}
+
+.skill-category:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-purple-400);
+    box-shadow: var(--shadow-purple);
+}
+.skill-category:hover::before {
+    opacity: 1;
+}
+
+.skill-category__title {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: var(--fw-bold);
+    color: var(--color-text);
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--color-border);
+    position: relative;
+}
+
+.skill-category__title::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background: var(--gradient-purple);
+}
+
+.skill-category__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    position: relative;
+    z-index: 1;
+}
+
+.skill-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.1rem;
+    background: rgba(20, 9, 42, 0.7);
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius-full);
+    font-size: var(--fs-sm);
+    color: var(--color-text-soft);
+    font-weight: var(--fw-medium);
+    transition: all var(--transition-base);
+    cursor: default;
+}
+
+.skill-chip:hover {
+    background: rgba(124, 58, 237, 0.25);
+    border-color: var(--color-purple-300);
+    color: var(--color-text);
+    transform: translateY(-2px);
+}
+
+.skill-chip__icon {
+    color: var(--color-gold);
+    font-weight: var(--fw-bold);
+    font-size: 0.85rem;
+}

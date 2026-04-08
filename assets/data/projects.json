@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "id": "urban-routes",
+      "number": "01",
+      "title": "Urban Routes",
+      "subtitle": "Pruebas de Compatibilidad y Funcionalidad en Aplicación Web",
+      "year": "2025",
+      "context": "Probé la funcionalidad de una aplicación web de transporte compartido en distintos entornos, identificando inconsistencias de comportamiento entre Chrome y Firefox.",
+      "role": "Analicé requisitos funcionales y de diseño, diseñé y ejecuté casos de prueba basados en escenarios reales, y apliqué checklists de validación para mejorar la cobertura del testing.",
+      "impact": "Detección de diferencias de comportamiento entre entornos y mejora en la validación de requisitos funcionales.",
+      "tags": ["UI Testing", "Casos de prueba", "DevTools", "Cross-browser"],
+      "screenshots": [
+        "assets/images/projects/proyecto-1/screenshot-01.png",
+        "assets/images/projects/proyecto-1/screenshot-02.png",
+        "assets/images/projects/proyecto-1/screenshot-03.png"
+      ]
+    },
+    {
+      "id": "api-testing",
+      "number": "02",
+      "title": "API Testing & Validación de Servicios",
+      "subtitle": "Pruebas de API · TripleTen",
+      "year": "2025",
+      "context": "Analicé requisitos funcionales relacionados con servicios de entrega y gestión de kits para definir escenarios de prueba claros y alineados al negocio.",
+      "role": "Diseñé y estructuré casos de prueba para endpoints, ejecuté solicitudes HTTP validando códigos de estado, estructura de respuestas y manejo de errores. Documenté bugs en JIRA aplicando buenas prácticas de reporte.",
+      "impact": "Validación efectiva de servicios backend, asegurando consistencia en respuestas y correcto manejo de errores en la API.",
+      "tags": ["API Testing", "Postman", "HTTP", "JIRA"],
+      "screenshots": [
+        "assets/images/projects/proyecto-2/screenshot-01.png",
+        "assets/images/projects/proyecto-2/screenshot-02.png",
+        "assets/images/projects/proyecto-2/screenshot-03.png"
+      ]
+    }
+  ]
+}
